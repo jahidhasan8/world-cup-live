@@ -91,30 +91,76 @@ body {
 /* blog section */
 
 .blog{
-    display: grid;
-    grid-template-columns:300px repeat(3, 1fr);
+    margin-left: 125px;
 }
+.sports-news {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 200px repeat(3, 280px);
+     column-gap: 20px;
+
+    
+     
+}
+
 .sidebar{
     display: flex;
     flex-direction: column;
+    grid-row: 1/ -14;
     background-color: #161616;
-height: 200px;
-width: 200px;
-border-radius: 10px;
-margin-left: 125px;
-margin-top: 80px;
-padding: 30px;
-
-   
-
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 30px;
+    
 }
-.sidebar a{
+
+
+.sidebar a {
     text-decoration: none;
     text-align: center;
-    /* display: block; */
     color: #292222;
     margin-top: 20px;
     background-color: #FFFFFF;
     border-radius: 5px;
-    
+
+}
+
+/* sports news section  */
+.sports-news-detail {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 76px;
+}
+
+ .sports-news-image img {
+    width: 80%;
+   
+}
+
+.sports-news-image a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #161616;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+.sports-news-text {
+    padding-left: 15px;
+}
+
+.sports-news-text p {
+    font-size: 14px;
+    color: #161616;
+    margin-top: 20px;
+}
+
+.sports-news-text .time {
+    padding: 10px;
 }

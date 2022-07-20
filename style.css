@@ -254,8 +254,8 @@ hr {
     padding: 20px;
 }
 .blog-button:hover{
-    color: tomato;
-    background-color: purple;
+    
+    background-color:orangered;
 }
 
 /* view group file css part  */

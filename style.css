@@ -1,4 +1,6 @@
-/* Universal selector  */
+/*......................... 
+      Universal selector
+  ..........................*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +11,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* top-banner section */
+/*.................................... 
+         top-banner section
+ .....................................*/
 
 .top-banner {
     display: flex;
@@ -26,7 +30,6 @@ body {
     width: 50%;
     margin-left: 130px;
     margin-top: 100px;
-    /* text-align: end; */
 
 }
 
@@ -64,7 +67,10 @@ body {
     width: 85%;
 }
 
-/* animation part  */
+/*...................................... 
+           animation part  
+.......................................*/
+
 .man {
 
     transition: transform 0.2s ease-in;
@@ -87,6 +93,9 @@ body {
     transform: translate(-400px, -100px);
 }
 
+/*......................................... 
+               Blog Section 
+ ..........................................*/
 .blog {
     display: flex;
 }
@@ -152,7 +161,9 @@ a {
     text-decoration: none;
 }
 
-/* Button part for tablet users */
+/*................................... 
+    Button part for tablet users
+ ...................................*/
 .view {
     display: flex;
     border-radius: 5px;
@@ -171,17 +182,9 @@ a {
 
 }
 
-/* .link{
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    color:white;
-    background-color: rgba(255, 0, 0, 0.788);
-} */
-/*................ 
-   footer section 
- ...................*/
+/*................................. 
+          Footer section 
+ .................................*/
 
 .footer-section {
     background-color: #161616;
@@ -226,8 +229,6 @@ hr {
     color: #333;
     height: 1px;
     background-color: #333;
-    /* margin-left: 350px; */
-    /* width: 600px; */
 
 }
 
@@ -258,12 +259,23 @@ hr {
     background-color:orangered;
 }
 
-/* view group file css part  */
+/*................................................ 
+            View group file css part
+  ...............................................*/
+
 .all-group{
     display: grid;
     grid-template-rows:repeat(3, 1fr) ;
 }
-/* For Mobile Devices */
+
+/*........................................... 
+                Media Query 
+.............................................*/
+
+/*........................................... 
+           For Mobile Devices
+ ............................................*/
+
 @media screen and (max-width:688px) {
     .top-banner {
         height: 600px;
@@ -272,11 +284,6 @@ hr {
         border-radius: 10px;
         display: flex;
         flex-direction: column;
-
-        /* display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-direction: column; */
     }
 
     .top-banner-details {
@@ -289,8 +296,6 @@ hr {
     }
 
     .top-banner h1 {
-        /* font-size: 22px; */
-        /* margin-top: 0%; */
         text-align: center;
         width: 228px;
         left: 74px;
@@ -362,14 +367,19 @@ hr {
         padding: 10px;
     }
     
-    /* upcoming match media query */
+    /*................................ 
+        upcoming match media query
+    ................................ */
+
     .live-sports{
         display: grid;
         grid-template-columns: repeat(1, 1fr)
     }
 }
 
-/* For Tablet viewers */
+/*............................................... 
+             For Tablet Users
+ ...............................................*/
 
 @media screen and (min-width:688px) and (max-width:992px) {
     .top-banner {
@@ -395,10 +405,7 @@ hr {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         margin: 0 auto;
-
     }
-
-
 
     .blog {
 
@@ -413,22 +420,14 @@ hr {
         background-color: #FFFFFF;
         width: 60%;
         height: 50%;
-        /* margin-bottom: 0%; */
-        /* padding-bottom: 0%; */
         margin: auto;
-
-
-
     }
 
     .sidebar a {
         display: inline-block;
         width: 100%;
-        /* padding-top: 5px; */
         border: 1px solid rgb(238, 230, 230);
         border-radius: 10px;
-
-
     }
 
     .information-link {
@@ -440,13 +439,16 @@ hr {
     .view {
         visibility: visible;
     }
-    /* upcoming match media query */
+
+    /*..................................... 
+           upcoming match media query
+    ...................................... */
     .live-sports{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
     
-
 }
+
 
 

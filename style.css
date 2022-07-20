@@ -143,8 +143,13 @@ body {
     padding: 5px;
     margin-top: 76px;
 }
+.sports-news-detail a{
+    border: 1px solid gray;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.863);
+}
 
-.sports-news-detail a,
+.sports-news-detail
 p {
     padding: 10px;
 }
@@ -176,8 +181,8 @@ a {
 
 .view button a {
     color: white;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 40px;
+    padding: 15px;
     background-color: rgba(255, 0, 0, 0.884);
 
 }
